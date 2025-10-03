@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // ⚡ IMPORTANT pour GitHub Pages
+  base: '/Dr-Diouf/', // nom exact du repo
 });
